@@ -1,0 +1,60 @@
+@media screen and (max-width:1400px) 
+{
+ #nav{
+    height: 83vh;
+    margin-bottom: 6rem;
+ }   
+ .about-containers{
+    display: flex;
+    flex-wrap: wrap;
+    
+ }
+}
+@media screen and (max-width:1200px) 
+{
+ #desktop-nav{
+    display: none;
+ }   
+ #menu-nav{
+    display: flex;
+ }
+ #experience,.experience-details-container{
+   margin-top: 2rem;
+   text-align: center;
+ 
+ }
+ article{
+   display: flex;
+   
+ }
+ 
+ #home{
+   display: block;
+ }
+ section{
+   margin:  0 5%;
+ }
+ .about-containers{
+   margin-top: 0;
+ }
+}
+
+@media screen and (max-width:600px) {
+   #contact{
+      height: 40vh;
+   }
+   
+   #home{
+      height: 83vh;
+      margin-bottom: 0;
+   }
+   article{
+      font-size: 1rem;
+   }
+}
+.Contact{
+   flex-wrap: wrap;
+}
+.Contact p{
+   font-size: 1rem;
+}
